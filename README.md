@@ -14,7 +14,7 @@ Medicoes feitas com
 ![Imagem do WhatsApp de 2024-04-24 à(s) 21 40 01_a7f280b8](https://github.com/ofelipevilela/sovol-sv06-klipper/assets/165967059/28841caa-f47e-4ed6-9ea0-455654381047)
 ![Imagem do WhatsApp de 2024-04-24 à(s) 21 40 02_92d90285](https://github.com/ofelipevilela/sovol-sv06-klipper/assets/165967059/21bd08fc-efa6-4a7a-b943-86a0179033ef)
 
-- Resultados com:
+- Resultados :
   
 input_shaper x = 46  # aumentei um pouco da foto pois ainda havia ressonancia
  
@@ -31,6 +31,6 @@ input_shaper y = 42,5
 
   Fator multiplicativo = 0,005
 
-  Resultado:
+  Resultado: pressure_advence = 0,0622
   
 ![Imagem do WhatsApp de 2024-04-24 à(s) 21 40 04_66743071](https://github.com/ofelipevilela/sovol-sv06-klipper/assets/165967059/69383014-c6ff-424f-99fc-9e5edaa75f19)
