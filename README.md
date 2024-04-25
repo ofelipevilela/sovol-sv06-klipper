@@ -15,7 +15,9 @@ Medicoes feitas com
 ![Imagem do WhatsApp de 2024-04-24 à(s) 21 40 02_92d90285](https://github.com/ofelipevilela/sovol-sv06-klipper/assets/165967059/21bd08fc-efa6-4a7a-b943-86a0179033ef)
 
 - Resultados com:
-input_shaper x = 46  # aumentei um pouco da foto pois ainda havia ressonancia 
+  
+input_shaper x = 46  # aumentei um pouco da foto pois ainda havia ressonancia
+ 
 input_shaper y = 42,5
 
 ![Imagem do WhatsApp de 2024-04-24 à(s) 21 40 03_30a27b59](https://github.com/ofelipevilela/sovol-sv06-klipper/assets/165967059/d3354e6a-246b-43ec-b855-843025f4853a)
