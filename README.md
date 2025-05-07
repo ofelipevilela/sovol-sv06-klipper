@@ -2,7 +2,7 @@
 
 Firmware e configuracoes do klipper para a SV06
 
-- INPUT SHAPER ACELEROMETRO ADXL345
+- INPUT SHAPER ACELEROMETRO ADXL345 MELLOW
   - https://www.klipper3d.org/Measuring_Resonances.html
   - https://www.klipper3d.org/RPi_microcontroller.html
   - https://www.youtube.com/watch?v=9S7uGbbBfx0
