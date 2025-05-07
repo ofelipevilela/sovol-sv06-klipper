@@ -5,8 +5,8 @@ Firmware e configuracoes do klipper para a SV06
 - INPUT SHAPER ACELEROMETRO ADXL345
   - https://www.klipper3d.org/Measuring_Resonances.html
   - https://www.klipper3d.org/RPi_microcontroller.html
-  Referencia:
-  https://www.youtube.com/watch?v=9S7uGbbBfx0
+  - https://www.youtube.com/watch?v=9S7uGbbBfx0
+  - https://www.reddit.com/r/BIGTREETECH/comments/14m222t/btt_pi_and_btt_adxl345_settings/
 
 Comando para o printer.cfg:
 [mcu host]
