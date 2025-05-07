@@ -2,7 +2,39 @@
 
 Firmware e configuracoes do klipper para a SV06
 
-- INPUT SHAPER
+- INPUT SHAPER ACELEROMETRO ADXL345
+  https://www.klipper3d.org/Measuring_Resonances.html
+  https://www.klipper3d.org/RPi_microcontroller.html
+  Referencia:
+  https://www.youtube.com/watch?v=9S7uGbbBfx0
+
+Comando para o printer.cfg:
+[mcu host]
+serial: /tmp/klipper_host_mcu
+
+[adxl345] #BTT PI
+cs_pin: host:gpio67
+spi_bus: spidev0.0
+axes_map: x,y,z
+
+[resonance_tester]
+accel_chip: adxl345
+accel_per_hz: 70
+probe_points:
+    100, 100, 20
+
+[input_shaper]
+#shaper_freq_x: 55.8
+#shaper_type_x: mzv
+
+#shaper_freq_y: 41.2
+#shaper_type_y: mzv
+#shaper_type: ei
+
+![Imagem do WhatsApp de 2025-05-07 à(s) 17 02 28_a810db7e](https://github.com/user-attachments/assets/df9837db-1e70-4014-959b-bb5d767ce461)
+
+
+- INPUT SHAPER MANUAL
   https://www.klipper3d.org/Resonance_Compensation.html
   
 Medicoes feitas com 
