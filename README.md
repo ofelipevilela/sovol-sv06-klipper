@@ -8,7 +8,7 @@ Firmware e configuracoes do klipper para a SV06
   - https://www.youtube.com/watch?v=9S7uGbbBfx0
   - https://www.reddit.com/r/BIGTREETECH/comments/14m222t/btt_pi_and_btt_adxl345_settings/
 
-Comando para o printer.cfg:
+- Comando para o printer.cfg:
 [mcu host]
 serial: /tmp/klipper_host_mcu
 
