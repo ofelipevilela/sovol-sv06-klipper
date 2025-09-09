@@ -5,7 +5,7 @@ Firmware e configuracoes do klipper para a SV06
 - CONFIGS PARA "MAKE MENUCONFIG"
   - Micro-controller Architecture: STMicroelectronics STM32
   - Processor model: STM32F103
-  - Bootloader offset: 28KiB bootloader (Este é o padrão para placas Creality/clones com o chip F103)
+  - Bootloader offset: 28KiB bootloader (Se nao tiver utilize 8KiB bootloader)
   - Communication interface: USB (on PA11/PA12)
 
 - INPUT SHAPER ACELEROMETRO ADXL345 MELLOW
