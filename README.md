@@ -2,13 +2,19 @@
 
 Firmware e configuracoes do klipper para a SV06
 
+- CONFIGS PARA "MAKE MENUCONFIG"
+  - Micro-controller Architecture: STMicroelectronics STM32
+  - Processor model: STM32F103
+  - Bootloader offset: 28KiB bootloader (Este é o padrão para placas Creality/clones com o chip F103)
+  - Communication interface: USB (on PA11/PA12)
+
 - INPUT SHAPER ACELEROMETRO ADXL345 MELLOW
   - https://www.klipper3d.org/Measuring_Resonances.html
   - https://www.klipper3d.org/RPi_microcontroller.html
   - https://www.youtube.com/watch?v=9S7uGbbBfx0
   - https://www.reddit.com/r/BIGTREETECH/comments/14m222t/btt_pi_and_btt_adxl345_settings/
 
-- Comando para o printer.cfg:
+- Comandos para o printer.cfg:
 
 [mcu host]
 serial: /tmp/klipper_host_mcu
